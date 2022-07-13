@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+    font-family: Tahoma, Verdana, sans-serif, 'Segoe UI';
 }
 
 .container {  
@@ -19,7 +20,27 @@ body{
   
   .prof-info { grid-area: prof-info; }
   
-  .posts { grid-area: posts; }
+  .posts { 
+    grid-area: posts;
+    
+  }
   
-  .nav-bar { grid-area: nav-bar; }
+  .nav-bar { 
+    grid-area: nav-bar; 
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+  }
+
+  .nav-bar a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .container > div{
+    border: 2px solid gray
+  }
   
