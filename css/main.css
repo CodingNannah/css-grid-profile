@@ -4,7 +4,7 @@ body{
 }
 
 .container {  
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 10% 2fr 3fr;
@@ -16,9 +16,13 @@ body{
       ". posts posts posts posts .";
   }
   
-  .prof-pc { grid-area: prof-pc; }
+  .prof-pc { 
+    grid-area: prof-pc; 
+  }
   
-  .prof-info { grid-area: prof-info; }
+  .prof-info {
+     grid-area: prof-info;
+     }
   
   .posts { 
     grid-area: posts;
